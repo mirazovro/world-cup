@@ -1,3 +1,93 @@
-h1 {
+/* common styles */
+body {
+    font-family: 'Josefin Sans',
+        sans-serif;
+    font-family: 'Poppins',
+        sans-serif;
+}
+
+/* first container */
+.container {
+    background-color: #161616;
+    Width: 1321px;
+    Height: 646px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px 25px;
+    gap: 10px;
+
+}
+
+.header-txt {
+    color: #FFFFFF;
+    width: 531px;
+    height: 424px;
+}
+
+.para {
+    margin-top: 20px;
+}
+
+.btn1 {
+    text-decoration: none;
+    background-color: #DD0000;
+    color: #FFFFFF;
+    padding: 16px 25px;
+    border-radius: 5px;
+
+}
+
+.header-img {
+    width: 581px;
+    height: 613px;
+}
+
+/* first container styles end */
+
+/* main styling start */
+.all-content {
+    width: 312px;
+    height: 312px;
+    margin-top: 130px;
+    /* background: #161616;
+*/
     background-color: red;
+}
+
+
+.buttons {
+    width: 252px;
+    height: 252px;
+    margin-bottom: 30px;
+    padding: 30px;
+}
+
+.btn2 {
+    background-color: white;
+    padding: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+.btn3 {
+    border-radius: 10px;
+    background-color: white;
+    padding: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+.btn4 {
+    background-color: white;
+    padding: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+/* player information style start */
+
+.player- {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
