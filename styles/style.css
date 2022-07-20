@@ -16,6 +16,7 @@ body {
     align-items: flex-start;
     padding: 16px 25px;
     gap: 10px;
+    border-radius: 30px;
 
 }
 
@@ -25,8 +26,14 @@ body {
     height: 424px;
 }
 
+.h1 {
+    font-size: 70px;
+    font-weight: 700;
+}
+
 .para {
-    margin-top: 20px;
+    margin-top: 16px 0 0 25px;
+    font-size: 20px;
 }
 
 .btn1 {
@@ -35,6 +42,7 @@ body {
     color: #FFFFFF;
     padding: 16px 25px;
     border-radius: 5px;
+    margin: 10px;
 
 }
 
@@ -46,13 +54,12 @@ body {
 /* first container styles end */
 
 /* main styling start */
-.all-content {
+.group-buttons {
     width: 312px;
     height: 312px;
     margin-top: 130px;
-    /* background: #161616;
-*/
-    background-color: red;
+    background: #161616;
+    border-radius: 10px;
 }
 
 
@@ -79,7 +86,7 @@ body {
 }
 
 .btn4 {
-    background-color: white;
+    background: #DD0000;
     padding: 20px;
     margin-left: 20px;
     border-radius: 10px;
@@ -87,7 +94,15 @@ body {
 
 /* player information style start */
 
-.player- {
+.all-content {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.player-details {
+    width: 312px;
+    height: 362px;
+    margin-top: 50px;
+    margin-left: 40px;
 }
