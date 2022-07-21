@@ -1,8 +1,4 @@
 /* common styles */
-* {
-    margin: 0;
-    padding: 0;
-}
 
 body {
     font-family: 'Josefin Sans',
@@ -22,7 +18,8 @@ body {
 .container {
     background-color: #161616;
     width: 80%;
-    Height: 30rem;
+    /* Width: 82.563rem;
+    Height: 40.375rem; */
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -34,14 +31,10 @@ body {
 
 }
 
-.container:hover {
-    cursor: pointer;
-    transition: 0.100ms ease-in;
-
-}
-
 .header-txt {
     color: #FFFFFF;
+    width: 33.188rem;
+    height: 26.5rem;
 }
 
 .h1 {
@@ -60,26 +53,36 @@ body {
     color: #FFFFFF;
     padding: 16px 25px;
     border-radius: 5px;
-    margin-top: 50px;
-
+    margin: 10px;
 
 }
 
-#header-img {
+.header-img {
     width: 36.313rem;
     height: 39.438rem;
-    margin-top: 156px;
 }
 
 /* first container styles end */
 
 /* main styling start */
+.buttons-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    width: 58.5rem;
+    height: 67.875rem;
+    margin-top: 8.125rem;
+    gap: 1.5rem;
+
+}
 
 .group-buttons {
+
     width: 19.5rem;
-    margin-bottom: 50px;
-    margin-top: 70px;
-    margin-left: 40%;
+    height: 19.5rem;
+    margin-bottom: 51.625rem;
+    margin-left: 60%;
     background: #161616;
     border-radius: 10px;
 }
@@ -99,11 +102,6 @@ body {
     border-radius: 10px;
 }
 
-.btn2>a {
-    text-decoration: none;
-    color: #161616;
-}
-
 .btn3 {
     border-radius: 10px;
     background-color: white;
@@ -119,18 +117,6 @@ body {
     border-radius: 10px;
 }
 
-.buttons-images {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1.5rem;
-    justify-content: center;
-    align-items: center;
-    margin-left: 100px;
-
-
-}
-
-
 /* player information style start */
 
 .all-content {
@@ -142,20 +128,10 @@ body {
 .player-details {
     margin-top: 50px;
     margin-left: 40px;
-
 }
 
-.player-names {
-    margin-top: 5px;
-}
-
-.icons {
-    margin-top: 10px;
-}
-
-.all-content>.player-details>.img> {
+.all-content>.player-details .img> {
     margin-top: 307px;
-    size: 50%;
 
 
 }
@@ -163,9 +139,11 @@ body {
 /* footer part start */
 .footers {
     background: #161616;
-    width: 100%;
-    height: 200px;
-    margin-top: 30px;
+    /* width: 100%;
+    height: 200px; */
+    width: 100rem;
+    height: 27.75rem;
+    margin-top: 60px;
 }
 
 
@@ -175,9 +153,9 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: 50px;
-    margin-bottom: 100px;
-    margin-left: 0px;
-
+    margin-bottom: 130px;
+    /* margin-left: 0px; */
+    /* margin-top: 2090px; */
 
 }
 
@@ -193,36 +171,8 @@ body {
 .footer>a {
     color: #FFFFFF;
     font-size: 16px;
+    /* margin: 21.94% 21.94% 93.92% 5.13%; */
     margin: 10px 60px;
     text-decoration: none;
 
 }
-
-
-/*---------------
- media query for resposiveness 
-            ----------------------*/
-/* for table devices */
-@media only screen and (min-width:689px) and (max-width:992px) {
-
-
-    .player-details>.img {
-        /* background-color: yellow; */
-        flex-direction: column;
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    /* plaese give me solution for responsive if possible 
-    didnt find any clue trying almost 10 hours+  */
-}
-
-/* for mobile device */
-@media only screen and (max-width: 688px) {
-    .player-details>.img {
-        /* background-color: red; */
-        flex-direction: column;
-        grid-template-columns: repeat 2(1fr, 1fr);
-    }
-}
-
-/* background color kaj kortese but fr gulo properly kaj korse na i,m totally a looser */
